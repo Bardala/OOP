@@ -1,0 +1,31 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="161px" height="90px" viewBox="-0.5 -0.5 161 90" content="&lt;mxfile&gt;&lt;diagram id=&quot;YE_zgR8zaQ71VvHiVJuN&quot; name=&quot;Page-1&quot;&gt;7ZZvb5swEMY/DdL2olPASZS3g3TdpFaqmkl77cIFrBofMpcm6affGUwIJW2zbC8nIYV7fP53z88OgUjK3Y2VVXGHGeggmmS7QCyDKAonYsE/Ttm3ynQqWiG3KvNJvbBSL9D19OpGZVAPEglRk6qGYorGQEoDTVqL22HaGvVw1krmMBJWqdRj9ZfKqGjVxWzS699B5UU3czjxLaXskr1QFzLD7ZEkrgORWERq38pdAtoVr6tL2+/bG62HhVkwdE6HqO3wLPXG722lTK6B0ATRPIgEl1zEfq207wpQb1WppeEoXqOhlW8JOZZa5YbfU14BWBaewZLi2n31DYQVq2mhdHYr97hx66xJpk9dFBdo1QsPK7Ufk5steQx4VccZK9eTZbdMCzXn3HebD19Jd3I3SLyVNXkhRa1lVavHwzZKaXNlYiTC0ieNa+vL7XYIuyPJ1/oGsASye07pWoX33YMfTn287TEK514rjhBazD29ntz8MPRhtgcmXTrv/nC6yYnpun7ddFKzl0YSxLgxWX2MFL8c7bSXGtBOQydG0F25VsM2mxRGsHFtqYHA4hMkqJGpWhps6VNav5I6ADWs6U386kqmDPptk7Oc9sqDL4KTkPuudXM8C5VlYBw6SJJky4mDokJlqKnSLOaH65ZMvsyCGS884TjsY35cuqUEeadWqoYiYAi34EA8wVd0Nl/e4Gh+Hk7ROzgNjH3HxenIxZFzWjWOtM51N2V4kW0lG6Ch9+mns3F5FY68FGMvxQnftHwEfY+1IoVufNvmvvLzI8uGTCpTgFX/yMpZdObN8PdOzk44Gbu/WaAf/lB++vz/WF7u5fzMW/6CY8lh/7XQ3sX9N5e4/g0=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-4-31-152-26-0">
+            <rect x="4" y="31" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-65-152-26-0">
+            <rect x="4" y="65" width="152" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 26 L 0 0 L 160 0 L 160 26" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 26 L 0 86 L 160 86 L 160 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 160 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="79.5" y="17.5">
+                Singleton
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-152-26-0)" font-size="12px">
+            <text x="5.5" y="43.5">
+                - instance
+            </text>
+        </g>
+        <path d="M 0 56 L 160 56" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-65-152-26-0)" font-size="12px">
+            <text x="5.5" y="77.5">
+                + getInstance()
+            </text>
+        </g>
+    </g>
+</svg>

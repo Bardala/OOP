@@ -1,10 +1,10 @@
-let x = {}
-let o = Object.getPrototypeOf(x)
+let x = {};
+let o = Object.getPrototypeOf(x);
 
 let User = {
-    type: 'Unauthenticated',
-    name: 'Theo'
-}
+  type: 'Unauthenticated',
+  name: 'Theo',
+};
 
-let u = Object.create(User, { name: { value: 'Alex' } })
-u.name
+let u = Object.create(User, { name: { value: 'Alex' } });
+u.name;

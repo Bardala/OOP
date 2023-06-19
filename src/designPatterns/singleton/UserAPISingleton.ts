@@ -1,21 +1,21 @@
 export default class UserAPISingleton {
-    private static instance: UserAPISingleton;
-    private constructor() { };
-    private static users: string[] = [];
+  private static instance: UserAPISingleton;
+  private constructor() {}
+  private static users: string[] = [];
 
-    static getInstance() {
-        if (!UserAPISingleton.instance)
-            UserAPISingleton.instance = new UserAPISingleton()
+  static getInstance() {
+    if (!UserAPISingleton.instance)
+      UserAPISingleton.instance = new UserAPISingleton();
 
-        return UserAPISingleton.instance
-    }
+    return UserAPISingleton.instance;
+  }
 
-    async getUsers(): Promise<string[]> {
-        return Promise.resolve(UserAPISingleton.users)
-    }
-    addUsers(users: string[]): void {
-        UserAPISingleton.users.push(...users)
-    }
+  async getUsers(): Promise<string[]> {
+    return Promise.resolve(UserAPISingleton.users);
+  }
+  addUsers(users: string[]): void {
+    UserAPISingleton.users.push(...users);
+  }
 }
 
 // IIFE (immediately invoked function expression)
